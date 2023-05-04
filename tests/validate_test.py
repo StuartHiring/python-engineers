@@ -11,11 +11,11 @@ from datetime import datetime
 
 @pytest.fixture
 def deliveries(scope='session'):
-    delivery1 = Delivery(delivery_id=1, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=3.45, city='london', distance=2.5)
-    delivery2 = Delivery(delivery_id=2, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=2.5, city='london', distance=1.5)
-    delivery3 = Delivery(delivery_id=3, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=1.25, city='london', distance=6.5)
-    delivery4 = Delivery(delivery_id=4, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=5.00, city='london', distance=2.0)
-    delivery5 = Delivery(delivery_id=5, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=7.12, city='london', distance=2.2)
+    delivery1 = Delivery(delivery_id=1, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=3.45, city='london', distance=2_500)
+    delivery2 = Delivery(delivery_id=2, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=2.5, city='london', distance=1_500)
+    delivery3 = Delivery(delivery_id=3, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=1.25, city='london', distance=6_500)
+    delivery4 = Delivery(delivery_id=4, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=5.00, city='london', distance=2_000)
+    delivery5 = Delivery(delivery_id=5, delivery_date=datetime.strptime('2023/01/01', '%Y/%m/%d'), price=7.12, city='london', distance=2_200)
     return [delivery1, delivery2, delivery3, delivery4, delivery5]
 
 

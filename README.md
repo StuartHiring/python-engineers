@@ -7,15 +7,17 @@ DURATION: You should be spending 1.5 to 3 hours to finish this assessment.
 DISCLAIMER: Whilst this task is broadly based around the topic of logistics, please note this challenge has been generated purely for the purpose of this test and none of this code or logic represents code used at Stuart.
 
 TECH STACK
+
 - We recommend using Python 3.7 or above.
 - We recommend having the following Python libraries installed: pandas, datetime, pytest.
   - Please feel free to use any additional libraries you think are useful.
 - We use PyTest for our unit tests.
   - These tests are found in the /tests/ folder.
-  - Each _test.py should include a fixture that could be useful in any unit test you create.
+  - Each \_test.py should include a fixture that could be useful in any unit test you create.
 - The /utils/ folder contains useful mappings that could be useful during the assessment
 
 SUBMISSION
+
 - Once you have finished the assessment, please zip all the files.
 - Attach the zipped folder to an email and send the finished assessment to us as instructed.
 - Please let us know any additional information we might need before reviewing your assessment.
@@ -23,6 +25,7 @@ SUBMISSION
 - Next steps? The assessment will be reviewed by our engineering team. Should you pass the assessment, we will send you an invitation for a technical interview to discuss the assessment directly with our team.
 
 NOTES
+
 - Show off! We love TDD. We love unit tests. We love design patterns. We love engineering!
 - If you have further questions, don't hesitate asking.
 
@@ -72,7 +75,7 @@ DURATION: ~ 1 hour
 
 Create a function called find_courier in validate.py, which takes an list of Courier instances and an instance of a delivery class from delivery.py. The find_courier function:
 
-- returns the delivery class which is updated with the following:
+- returns the delivery class instance which is updated with the following:
 
   - in_progress set to True if any Courier instance is validated
   - courier_id is set to first valid courier in list.

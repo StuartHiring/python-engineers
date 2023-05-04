@@ -35,7 +35,7 @@ class Delivery:
 
     def add_vat(self, vat):
         vat = 1.2
-        price_plus_vat = self.price + vat
+        price_plus_vat = self.price * vat
         return price_plus_vat
 
 
